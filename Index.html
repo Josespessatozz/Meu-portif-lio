@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spessato's Portifólio | Backend Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">Spessato's<span>.Portfifolio</span></a>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-links">
+                    <button onclick="scrollToSection('home')" class="nav-link">Home</button>
+                    <button onclick="scrollToSection('about')" class="nav-link">Sobre</button>
+                    <button onclick="scrollToSection('skills')" class="nav-link">Habilidades</button>
+                    <button onclick="scrollToSection('projects')" class="nav-link">Projetos</button>
+                    <button onclick="scrollToSection('contact')" class="nav-link">Contato</button>
+                </div>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()"></button>
+                <!-- Desktop Navigation -->
+                <div class="mobile-menu" id="mobileMenu">
+                    <div class="mobile-menu-links">
+                        <button onclick="scrollToSection('home')" class="mobile-nav-link">Home</button>
+                        <button onclick="scrollToSection('about')" class="mobile-nav-link">Sobre</button>
+                        <button onclick="scrollToSection('skills')" class="mobile-nav-link">Habilidades</button>
+                        <button onclick="scrollToSection('projects')" class="mobile-nav-link">Projetos</button>
+                        <button onclick="scrollToSection('contact')" class="mobile-nav-link">Contato</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+</body>
+
+</html>
