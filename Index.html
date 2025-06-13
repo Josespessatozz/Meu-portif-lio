@@ -41,6 +41,90 @@
             </nav>
         </div>
     </header>
+    <main>
+      <section class="skills-section" id="skills">
+        <div class="container">
+         <h2 class="section-title">Minhas Habilidades</h2>
+          <div class="skills-content"></div>
+             <div class="technical-skills animate-item">
+                <h3>Habilidades técnicas</h3>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                         <span>Javascript / TypeScript</span>
+                         <span>90%</span>
+                    </div>
+
+                </div class="progress-bar">
+                </div class="progress" style="w"></div>
+
+             </div>
+
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <button onclick="scrollToSection('home')" class="footer-logo-btn">
+                        Teste<span>.dev</span>
+                    </button>
+                    <p>Construindo experiências digitais</p>
+                </div>
+
+                <div class="footer-social">
+                    <div class="social-icon">
+                        <a href="https://linkedin.com" target="_blank" rel=" nooopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel=" nooopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com" target="_blank" rel=" nooopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:teste.teste@gmail.com" target="_blank" rel=" nooopener noreferrer">
+                            <i class="fab fa-envelope"></i>
+                        </a>
+                    </div>
+                    <p>&copy; <span id="currentYear"></span> Teste.dev. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top Button -->
+    <button id="scrollToTopBtn" class="scroll-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <div class="toast-icon sucess">
+                <i class="fas fa-check"></i>
+            </div>
+            <div class="toast-message-container">
+                <div class="toast-title">Sucesso</div>
+                <div class="toast-message">Sua mensagem foi enviada com sucesso!</div>
+            </div>
+            <button class="toast-close" onclick="closeToast()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
+
+
 </body>
 
 </html>
